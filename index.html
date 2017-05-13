@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>BOOKMARKER</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+   <body onload="fetchBookmarks()">
+
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          
+        </nav>
+        <h1 class="text-muted">BOOKMARKER</h1>
+      </div>
+
+      <div class="jumbotron">
+        <h2 class="display-3">Bookmark your Site</h2>
+        <form id="myform">
+        <div class="form group">
+         <label>SITE NAME</label>
+         <input type="text" class="formcontrol" id="sitename" placeholder="Website name">
+        </div>
+        <div class="form group">
+         <label>SITE URL</label>
+         <input type="text" class="formcontrol" id="siteurl" placeholder="Website URL">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <div id="bookmarksResult">
+            
+          </div>
+        </div>
+
+        
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Bookmarker 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"> 
+    </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
